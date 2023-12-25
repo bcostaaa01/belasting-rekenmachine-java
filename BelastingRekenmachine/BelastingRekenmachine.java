@@ -34,7 +34,7 @@ public class BelastingRekenmachine {
             System.out.println("Voer uw inkomen uit werk en woning in: ");
             double inkomen = input.nextDouble();
 
-            double belasting = berekenBelasting2024(inkomen);
+            double belasting = berekenBelasting2023(inkomen);
             System.out.println("Uw belasting is: " + belasting);
         }
 
